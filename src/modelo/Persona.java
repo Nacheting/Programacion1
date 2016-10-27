@@ -41,4 +41,21 @@ public class Persona {
 	public Date getFecha() {
 		return fecha;
 	}
+
+	public void setNif(String nif) {
+		this.nif = nif;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public void setSexo(char sexo) {
+		this.sexo = sexo;
+	}
+
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
+	
 }
